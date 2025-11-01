@@ -67,12 +67,9 @@ ide/
 statsig/
 
 # ==============================================================================
-# CUSTOM AGENTS
-# ==============================================================================
-# agents/ - Custom agent definitions that may be project-specific
-# WHY HIDDEN: May contain proprietary agent configurations, specialized prompts,
-# or workflow automations specific to your projects.
-agents/
+# NOTE: agents/ is NOT ignored here because this is the distribution package
+# User's personal agents will be in ~/.claude/agents/
+# See .claude/.gitignore for protecting personal agents in user installs
 
 # ==============================================================================
 # EDITOR WORKSPACE
