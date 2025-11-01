@@ -1,0 +1,90 @@
+# ==============================================================================
+# Claude Code Configuration - .gitignore
+# ==============================================================================
+# This file prevents sensitive session data from being committed to git.
+# Only share configuration files and documentation, never session history.
+
+# ==============================================================================
+# SESSION AND CONVERSATION DATA
+# ==============================================================================
+# projects/ - Contains full conversation transcripts in JSONL format
+# WHY HIDDEN: Includes all code snippets, file paths, project names, and
+# conversations that may contain proprietary code, API keys, or sensitive
+# business logic from your actual development projects.
+projects/
+
+# history.jsonl - Global conversation history across all sessions
+# WHY HIDDEN: Complete record of all interactions with Claude Code, may
+# contain sensitive queries, code, or debugging information.
+history.jsonl
+
+# ==============================================================================
+# FILE HISTORY AND VERSIONS
+# ==============================================================================
+# file-history/ - Snapshots of files at different versions during editing
+# WHY HIDDEN: Contains actual source code from your projects that was edited
+# during Claude Code sessions. This is YOUR code and should not be shared.
+file-history/
+
+# ==============================================================================
+# DEBUG AND LOGGING
+# ==============================================================================
+# debug/ - Debug logs and error traces
+# WHY HIDDEN: May contain stack traces, error messages, file paths, and other
+# debugging information that could expose project structure or issues.
+debug/
+
+# ==============================================================================
+# TASK MANAGEMENT
+# ==============================================================================
+# todos/ - Task lists created during sessions
+# WHY HIDDEN: Contains project-specific task lists that may reference
+# proprietary features, bugs, or implementation details.
+todos/
+
+# ==============================================================================
+# SHELL HISTORY
+# ==============================================================================
+# shell-snapshots/ - Snapshots of shell commands executed during sessions
+# WHY HIDDEN: May contain sensitive commands, file paths, environment variables,
+# API tokens, or other credentials used in development.
+shell-snapshots/
+
+# ==============================================================================
+# IDE STATE
+# ==============================================================================
+# ide/ - IDE lock files and state information
+# WHY HIDDEN: Contains temporary state and lock files that are machine-specific
+# and not useful for sharing.
+ide/
+
+# ==============================================================================
+# TELEMETRY AND ANALYTICS
+# ==============================================================================
+# statsig/ - Telemetry and usage analytics data
+# WHY HIDDEN: Contains usage statistics and analytics that are specific to
+# your individual usage patterns.
+statsig/
+
+# ==============================================================================
+# CUSTOM AGENTS
+# ==============================================================================
+# agents/ - Custom agent definitions that may be project-specific
+# WHY HIDDEN: May contain proprietary agent configurations, specialized prompts,
+# or workflow automations specific to your projects.
+agents/
+
+# ==============================================================================
+# EDITOR WORKSPACE
+# ==============================================================================
+# .vscode/ - VS Code workspace settings
+# WHY HIDDEN: Personal editor preferences and workspace configurations that
+# are machine-specific.
+.vscode/
+
+# ==============================================================================
+# KEEP THESE FILES (They are safe and useful to share!)
+# ==============================================================================
+# !commands/ - Custom slash commands (kept)
+# !*.md - Documentation files like README.md, CUSTOM_COMMANDS.md, etc. (kept)
+# These contain reusable configurations that help other developers.
