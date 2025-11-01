@@ -3,11 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
-Production-ready Claude Code configuration with **3 specialized agents** and **7 workflow commands**.
+**We're building the best Claude Code workflow together.**
+
+This is a community-driven configuration package with **3 specialized agents** and **7 powerful commands** to supercharge your development. Want to make it better? We'd love your help.
 
 ## What's Inside
 
-- **Agents**: Frontend, Backend, Test specialists
+- **Agents**: Frontend, Backend, Test specialists who understand your stack
 - **Commands**: Context analysis, auto-commit messages, session saving, git worktrees
 - **Scripts**: Automated installation and clean removal
 
@@ -24,6 +26,8 @@ Then in Claude Code:
 /.context              # Analyze your project
 Use the frontend agent to build a button component
 ```
+
+**That's it.** Now you have specialized agents and workflow automation across all your projects.
 
 ## Agents
 
@@ -99,11 +103,15 @@ A: Everything stays local. See `.gitignore` for what's protected.
 
 ## Contributing
 
-We want your improvements! Add:
+**Help us build the best Claude Code workflow!**
+
+We welcome:
 - Custom agents for specific frameworks (Django, Rails, Vue, Angular, etc.)
 - Slash commands for your workflows
 - Workflow patterns and best practices
 - Language-specific helpers
+- Documentation improvements
+- Bug reports and suggestions
 
 **How to contribute:**
 1. Fork this repo
@@ -112,7 +120,11 @@ We want your improvements! Add:
 4. Test thoroughly
 5. Submit a PR
 
-See existing agents/commands as examples.
+See existing agents/commands as examples. We review and merge contributions quickly.
+
+## Thanks
+
+Built by developers, for developers. Special thanks to everyone who uses this, shares feedback, and contributes improvements. You make this better. 🙏
 
 ## License
 
@@ -120,6 +132,6 @@ MIT - Use, modify, and share freely.
 
 ---
 
-**Made by developers, for developers.**
+**Questions?** Open an issue or start a discussion. We're here to help.
 
-Have questions? Open an issue or start a discussion!
+**Have an idea?** We'd love to hear it!
